@@ -232,7 +232,7 @@
     color:white;
 }
 
-.footer {
+/* .footer {
     background: #111C2D;
     padding: 35px 0;
     margin-top: 100px;
@@ -263,6 +263,52 @@
 
 .footer-links a:hover {
     color: #ffffff;
+} */
+
+.footer{
+    background:#111C2D;
+    padding:50px 0;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.footer-logo img{
+    height:42px;
+}
+
+.footer-social{
+    display:flex;
+    gap:18px;
+}
+
+.footer-social img{
+    width:24px;
+    height:24px;
+    transition:.3s;
+}
+
+.footer-social img:hover{
+    transform:scale(1.15);
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin-bottom:25px;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#9CA3AF;
+    font-size:14px;
 }
 
 /* CTA Section (AI) */
