@@ -23,14 +23,16 @@
     gap: 32px;
 }
 
-.common-btn {
-    text-decoration: none;
-    background: #2563EB;
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
+.common-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563EB;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:8px;
+    font-weight:600;
+    cursor:pointer;
+    border:none;
 }
 
 /* HERO SECTION */
@@ -158,6 +160,8 @@
     background: white;
 }
 
+
+
 .active {
     background: #111827;
     color: white;
@@ -210,6 +214,22 @@
 
 .active li {
     color: #F9FAFB;
+}
+
+.outline-btn{
+    width:100%;
+    padding:14px;
+    border:1px solid #2563EB;
+    border-radius:8px;
+    background:white;
+    color:#2563EB;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.outline-btn:hover{
+    background:#2563EB;
+    color:white;
 }
 
 .footer {
